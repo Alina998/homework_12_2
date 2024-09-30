@@ -1,6 +1,7 @@
 import logging
 import os
 
+
 def get_mask_card_number(a: int) -> str:
     """Функция принимает на вход номер карты в виде числа и возвращает маску номера"""
     number_in_str = str(a)
